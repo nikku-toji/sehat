@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# build output
+dist/
+build/
+.vite/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# local uploads (PHI must never be committed)
+backend/uploads/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+!frontend/**/*.svg
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
